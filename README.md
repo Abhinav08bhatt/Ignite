@@ -15,6 +15,7 @@
   <img src="https://img.shields.io/badge/Platform-Android%20(iOS%20planned)-lightgrey" />
 
   <br/>
+  <br/>
 
   <p>
     <b>Status:</b> In development (v1.0)
