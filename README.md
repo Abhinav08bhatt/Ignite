@@ -1,15 +1,6 @@
 <div align="center">
 
-  <table align="center">
-    <tr>
-      <td>
-        <img src="preview/logo/app_logo.png" width="60" alt="Ignite Logo" />
-      </td>
-      <td>
-        <h1 style="margin: 0;">Ignite</h1>
-      </td>
-    </tr>
-  </table>
+  <h1>Ignite</h1>
 
   <p>
     <b>A minimal offline to-do app built for clarity, speed, and daily execution.</b><br/>
