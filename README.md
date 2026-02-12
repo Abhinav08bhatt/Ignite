@@ -14,11 +14,11 @@
   <img src="https://img.shields.io/badge/State%20Management-Provider-green" />
   <img src="https://img.shields.io/badge/Platform-Android%20(iOS%20planned)-lightgrey" />
 
-  <br/><br/>
+  <br/>
 
   <p>
     <b>Status:</b> In development (v1.0)
-    <br/><br/>
+    <br/>
     <b>Download:  <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
      style="display: inline-block; padding: 6px 12px; background: #58CC02; color: white;
             text-decoration: none; font-weight: bold; border-radius: 10px;">
