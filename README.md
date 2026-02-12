@@ -17,8 +17,13 @@
   <br/><br/>
 
   <p>
-    <b>Status:</b> In development (v1.0)<br/>
-    <b>Download:</b> APK builds will be uploaded in <b>GitHub Releases</b>
+    <b>Status:</b> In development (v1.0)
+    <br/><br/>
+    <b>Download:  <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
+     style="display: inline-block; padding: 6px 12px; background: #58CC02; color: white;
+            text-decoration: none; font-weight: bold; border-radius: 10px;">
+    Download Latest APK
+  </a>
   </p>
 
 </div>
@@ -67,8 +72,8 @@ Ignite stays simple. You add tasks, assign time if needed, and move on.
 <h2>Notifications</h2>
 
 <p>
-Ignite will support local notifications so you get reminded at the right time, even if the app is closed.
-This is one of the main features and will be included before the first stable release.
+Local notifications are planned for the next update.  
+This will allow reminders even when the app is closed.
 </p>
 
 <hr/>
@@ -89,7 +94,7 @@ Ignite is meant to feel like a small daily companion — not another app that de
 <h2>UI Style</h2>
 
 <p>
-Ignite follows a clean light theme with friendly colors (inspired by Duolingo-style UI).
+Ignite follows a clean light theme with friendly colors:
 </p>
 
 <ul>
@@ -112,15 +117,11 @@ For now, APK builds will be shared through <b>GitHub Releases</b>.
 <br/>
 
 <p align="center">
-  <a href="https://github.com/Abhinav08bhatt/Ignite/releases" target="_blank"
+  <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
      style="display: inline-block; padding: 12px 22px; background: #58CC02; color: white;
             text-decoration: none; font-weight: bold; border-radius: 10px;">
     Download Latest APK
   </a>
-</p>
-
-<p align="center">
-  <sub>(Reminder: update this link after you publish your first release.)</sub>
 </p>
 
 <br/>
@@ -219,7 +220,6 @@ If you try Ignite and like it:
 
 <p>
 Built by <a href="https://github.com/Abhinav08bhatt" target="_blank"><b>Avi</b></a>.
-</p>
 </p>
 
 <hr/>
