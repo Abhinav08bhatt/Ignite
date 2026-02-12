@@ -24,6 +24,14 @@
 
 </div>
 
+<div align="center">
+
+  <img src="preview/version_1.0/ignite_v1.0_preview_img_01.jpeg" width="250" style="margin: 10px;" />
+  <img src="preview/version_1.0/ignite_v1.0_preview_img_02.jpeg" width="250" style="margin: 10px;" />
+  <img src="preview/version_1.0/ignite_v1.0_preview_img_03.jpeg" width="250" style="margin: 10px;" />
+
+</div>
+
 <hr/>
 
 <h2>✨ What is Ignite?</h2>
@@ -91,18 +99,6 @@ Ignite uses a friendly, clean light theme :
 </ul>
 
 <hr/>
-
-<h2>📸 Screenshots</h2>
-
-<p>
-Screenshots will be added soon with real task data (not random placeholder content).
-</p>
-
-<!--
-Once you upload screenshots, replace these:
-<img src="assets/screenshots/home.png" width="250"/>
-<img src="assets/screenshots/new_task.png" width="250"/>
--->
 
 <hr/>
 
@@ -214,8 +210,10 @@ This project is part of a long-term goal: building real apps that feel premium a
 <h2>✪ License</h2>
 
 <p>
-License will be added later (MIT recommended).
+<b>Proprietary License (All Rights Reserved).</b><br/>
+This project is not open-source. APK builds are provided for personal use only.
 </p>
+
 
 <hr/>
 
