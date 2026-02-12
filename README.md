@@ -1,6 +1,7 @@
+
 <div align="center">
 
-  <h1Ignite</h1>
+  <h1>Ignite</h1>
 
   <p>
     <b>A clean, offline-first to-do app built to keep your day under control.</b><br/>
