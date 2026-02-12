@@ -1,10 +1,19 @@
 <div align="center">
 
-  <h1>Ignite</h1>
+  <table align="center">
+    <tr>
+      <td>
+        <img src="preview/logo/app_logo.png" width="60" alt="Ignite Logo" />
+      </td>
+      <td>
+        <h1 style="margin: 0;">Ignite</h1>
+      </td>
+    </tr>
+  </table>
 
   <p>
-    <b>A simple offline to-do app for people who just want to get things done.</b><br/>
-    No accounts. No internet. No unnecessary features.
+    <b>A minimal offline to-do app built for clarity, speed, and daily execution.</b><br/>
+    No accounts. No cloud. Just you and your tasks.
   </p>
 
   <br/>
@@ -12,19 +21,20 @@
   <img src="https://img.shields.io/badge/Flutter-App-blue" />
   <img src="https://img.shields.io/badge/Storage-Hive-orange" />
   <img src="https://img.shields.io/badge/State%20Management-Provider-green" />
-  <img src="https://img.shields.io/badge/Platform-Android%20(iOS%20planned)-lightgrey" />
+  <img src="https://img.shields.io/badge/Platform-Android-lightgrey" />
 
   <br/>
   <br/>
 
   <p>
-    <b>Status:</b> In development (v1.0)
+    <b>Status:</b> Released (v1.2)
     <br/>
-    <b>Download:  <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
-     style="display: inline-block; padding: 6px 12px; background: #58CC02; color: white;
-            text-decoration: none; font-weight: bold; border-radius: 10px;">
-    Download Latest APK
-  </a>
+    <b>Download:</b>
+    <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
+      style="display: inline-block; padding: 8px 14px; background: #58CC02; color: white;
+      text-decoration: none; font-weight: bold; border-radius: 10px;">
+      Download Latest APK
+    </a>
   </p>
 
 </div>
@@ -32,40 +42,41 @@
 <br/>
 
 <div align="center">
-
-  <img src="preview/version_1.0/ignite_v1.0_preview_img_01.jpeg" width="250" style="margin: 10px;" />
-  <img src="preview/version_1.0/ignite_v1.0_preview_img_02.jpeg" width="250" style="margin: 10px;" />
-  <img src="preview/version_1.0/ignite_v1.0_preview_img_03.jpeg" width="250" style="margin: 10px;" />
-
+  <img src="preview/version_1.2/ignite_v1.2_preview_img_01.jpeg" width="220" />
+  <img src="preview/version_1.2/ignite_v1.2_preview_img_02.jpeg" width="220" />
+  <img src="preview/version_1.2/ignite_v1.2_preview_img_03.jpeg" width="220" />
+  <img src="preview/version_1.2/ignite_v1.2_preview_img_04.jpeg" width="220" />
+  <img src="preview/version_1.2/ignite_v1.2_preview_img_05.jpeg" width="220" />
 </div>
-
 
 <hr/>
 
 <h2>What is Ignite?</h2>
 
 <p>
-Ignite is a lightweight to-do app built with one goal:
-<b>make task planning feel clean, fast, and stress-free.</b>
+Ignite is a lightweight task manager designed to stay out of your way.
+It’s built for people who want a clean UI, quick task creation, and reliable reminders
+without logging in or syncing to the cloud.
 </p>
 
 <p>
-Most apps either try to do too much or force you into their productivity system.
-Ignite stays simple. You add tasks, assign time if needed, and move on.
+Everything stays on your device. No tracking. No distractions.
 </p>
 
 <hr/>
 
-<h2>Features (v1.0)</h2>
+<h2>Key Features</h2>
 
 <ul>
-  <li>Create tasks</li>
-  <li>Optional date & time</li>
-  <li>Priority labels (Normal / Urgent / Important)</li>
-  <li>Mark tasks as completed</li>
-  <li>Delete tasks anytime</li>
-  <li>Automatic grouping: Today / Tomorrow / Upcoming / Someday</li>
-  <li>Works completely offline</li>
+  <li>Create tasks with optional date and time</li>
+  <li>Priority labels: Normal / Urgent / Important</li>
+  <li>Smart grouping: Today / Tomorrow / Upcoming / Someday</li>
+  <li>Mark tasks as completed (completed tasks move down automatically)</li>
+  <li>Swipe-to-delete with confirmation (safe deletion)</li>
+  <li>Scheduled local notifications for timed tasks</li>
+  <li>Personal greeting with editable username</li>
+  <li>Font scaling slider (text size control)</li>
+  <li>Fully offline (no internet required)</li>
 </ul>
 
 <hr/>
@@ -73,37 +84,43 @@ Ignite stays simple. You add tasks, assign time if needed, and move on.
 <h2>Notifications</h2>
 
 <p>
-Local notifications are planned for the next update.  
-This will allow reminders even when the app is closed.
+Ignite supports scheduled local notifications for tasks with date + time.
+Reminders work even when the app is closed.
+</p>
+
+<p>
+Completed tasks and tasks without a time are ignored by the notification system.
 </p>
 
 <hr/>
 
-<h2>Why I’m building this</h2>
+<h2>Why Ignite?</h2>
 
 <p>
-This project started because I wanted a to-do app that feels calm and modern,
-without ads, accounts, or complicated screens.
+A lot of productivity apps feel like dashboards. Too many buttons, too many menus,
+too many systems to learn.
 </p>
 
 <p>
-Ignite is meant to feel like a small daily companion — not another app that demands attention.
+Ignite is built to feel simple and calm — like a daily companion that helps you stay on track.
 </p>
 
 <hr/>
 
-<h2>UI Style</h2>
+<h2>Design Direction</h2>
 
 <p>
-Ignite follows a clean light theme with friendly colors:
+Ignite follows a clean dark theme with high contrast UI and smooth card-based sections.
+Priority labels are color-coded for quick recognition.
 </p>
 
 <ul>
-  <li><b>Primary Green:</b> <code>#58CC02</code></li>
-  <li><b>Normal Label:</b> <code>#1CB0F6</code></li>
-  <li><b>Urgent Label:</b> <code>#FFC310</code></li>
-  <li><b>Important Label:</b> <code>#FF4B4B</code></li>
-  <li><b>Background:</b> <code>#F7F7F7</code></li>
+  <li><b>Primary:</b> <code>#1C1C1C</code></li>
+  <li><b>Background:</b> <code>#EBEBEB</code></li>
+  <li><b>Accent Red:</b> <code>#FF1919</code></li>
+  <li><b>Normal:</b> Blue</li>
+  <li><b>Urgent:</b> Yellow</li>
+  <li><b>Important:</b> Red</li>
 </ul>
 
 <hr/>
@@ -111,8 +128,8 @@ Ignite follows a clean light theme with friendly colors:
 <h2>Download</h2>
 
 <p>
-Ignite is not published on Play Store yet.
-For now, APK builds will be shared through <b>GitHub Releases</b>.
+Ignite is not published on the Play Store yet.
+For now, all APK builds are uploaded through <b>GitHub Releases</b>.
 </p>
 
 <br/>
@@ -120,7 +137,7 @@ For now, APK builds will be shared through <b>GitHub Releases</b>.
 <p align="center">
   <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
      style="display: inline-block; padding: 12px 22px; background: #58CC02; color: white;
-            text-decoration: none; font-weight: bold; border-radius: 10px;">
+            text-decoration: none; font-weight: bold; border-radius: 12px;">
     Download Latest APK
   </a>
 </p>
@@ -128,21 +145,21 @@ For now, APK builds will be shared through <b>GitHub Releases</b>.
 <br/>
 
 <ul>
-  <li>Open the <b>Releases</b> section of this repo</li>
-  <li>Download the latest APK</li>
+  <li>Download the APK from the Releases page</li>
   <li>Install it on your Android device</li>
+  <li>If Android blocks installation, enable <b>"Install unknown apps"</b> for your browser/file manager</li>
 </ul>
-
 
 <hr/>
 
 <h2>Tech Stack</h2>
 
 <ul>
-  <li><b>Flutter</b> (UI + app logic)</li>
-  <li><b>Hive</b> (local storage)</li>
+  <li><b>Flutter</b></li>
+  <li><b>Hive</b> (local database)</li>
   <li><b>Provider</b> (state management)</li>
-  <li><b>Local Notifications</b> (planned)</li>
+  <li><b>flutter_local_notifications</b> (scheduled reminders)</li>
+  <li><b>timezone</b> (accurate scheduling)</li>
 </ul>
 
 <hr/>
@@ -150,29 +167,14 @@ For now, APK builds will be shared through <b>GitHub Releases</b>.
 <h2>Roadmap</h2>
 
 <details>
-  <summary><b>Version 1.0</b></summary>
+  <summary><b>Version 1.x (Current Stage)</b></summary>
   <br/>
   <ul>
-    <li>Complete task creation + task list flow</li>
-    <li>Hive integration</li>
-    <li>Provider cleanup</li>
-    <li>Notifications</li>
-    <li>UI polish + animations</li>
-    <li>Stable APK release</li>
-  </ul>
-</details>
-
-<br/>
-
-<details>
-  <summary><b>Version 1.x (Polish Updates)</b></summary>
-  <br/>
-  <ul>
-    <li>Better sorting & filtering</li>
-    <li>More task options</li>
-    <li>UX improvements</li>
-    <li>Performance optimizations</li>
-    <li>Bug fixes</li>
+    <li>More UI polish</li>
+    <li>Improved animations</li>
+    <li>Better task editing flow</li>
+    <li>More settings options</li>
+    <li>Bug fixes and performance improvements</li>
   </ul>
 </details>
 
@@ -182,7 +184,7 @@ For now, APK builds will be shared through <b>GitHub Releases</b>.
   <summary><b>Version 2.0</b></summary>
   <br/>
   <p>
-    Version 2.0 will turn Ignite into a daily routine partner, not just a to-do list.
+    Version 2.0 will expand Ignite into a complete daily routine partner.
   </p>
   <ul>
     <li>Home</li>
@@ -197,12 +199,12 @@ For now, APK builds will be shared through <b>GitHub Releases</b>.
 <h2>Privacy</h2>
 
 <p>
-Ignite does not require login and does not collect personal data.
-Everything stays stored locally on your device.
+Ignite does not collect user data.
+All tasks and settings are stored locally on your device using Hive.
 </p>
 
 <p>
-No tracking. No cloud. No account system.
+No account system. No analytics. No cloud sync.
 </p>
 
 <hr/>
@@ -210,13 +212,13 @@ No tracking. No cloud. No account system.
 <h2>Support</h2>
 
 <p>
-If you try Ignite and like it:
+If you use Ignite and find it helpful:
 </p>
 
 <ul>
   <li>Star the repo</li>
-  <li>Test the APK and report bugs</li>
-  <li>Suggest improvements in Issues</li>
+  <li>Report bugs in Issues</li>
+  <li>Suggest improvements</li>
 </ul>
 
 <p>
