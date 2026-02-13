@@ -18,7 +18,7 @@
   <br/>
 
   <p>
-    <b>Status:</b> Released (v1.2)
+    <b>Status:</b> Released (v1.2.1)
     <br/>
     <b>Download:</b>
     <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
@@ -37,7 +37,7 @@
   <img src="preview/version_1.2/ignite_v1.2_preview_img_02.jpeg" width="220" />
   <img src="preview/version_1.2/ignite_v1.2_preview_img_03.jpeg" width="220" />
   <img src="preview/version_1.2/ignite_v1.2_preview_img_04.jpeg" width="220" />
-  <img src="preview/version_1.2/ignite_v1.2_preview_img_05.jpeg" width="220" />
+  <img src="preview/version_1.2/ignite_v1.2.1_preview_img_05.jpeg.jpeg" width="220" />
 </div>
 
 <hr/>
