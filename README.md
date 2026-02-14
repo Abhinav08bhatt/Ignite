@@ -3,8 +3,8 @@
   <h1>Ignite</h1>
 
   <p>
-    <b>A minimal offline to-do app built for clarity, speed, and daily execution.</b><br/>
-    No accounts. No cloud. Just you and your tasks.
+    <b>A calm, offline daily planner for tasks, mood check-ins, and journaling.</b><br/>
+    No account. No cloud. Just your day, on your device.
   </p>
 
   <br/>
@@ -18,7 +18,7 @@
   <br/>
 
   <p>
-    <b>Status:</b> Released (v1.2.1)
+    <b>Status:</b> Active Development (v2 profile + journal update)
     <br/>
     <b>Download:</b>
     <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
@@ -32,68 +32,73 @@
 
 <br/>
 
-<div align="center">
-  <img src="preview/version_1.2/ignite_v1.2_preview_img_01.jpeg" width="220" />
-  <img src="preview/version_1.2/ignite_v1.2_preview_img_02.jpeg" width="220" />
-  <img src="preview/version_1.2/ignite_v1.2_preview_img_03.jpeg" width="220" />
-  <img src="preview/version_1.2/ignite_v1.2_preview_img_04.jpeg" width="220" />
-  <img src="preview/version_1.2/ignite_v1.2.1_preview_img_05.jpeg.jpeg" width="220" />
-</div>
+<!-- <div align="center">
+  <img src="preview/version_2/ignite_v2_preview_01.jpeg" width="220" />
+  <img src="preview/version_2/ignite_v2_preview_02.jpeg" width="220" />
+  <img src="preview/version_2/ignite_v2_preview_03.jpeg" width="220" />
+  <img src="preview/version_2/ignite_v2_preview_04.jpeg" width="220" />
+</div> -->
 
 <hr/>
 
 <h2>What is Ignite?</h2>
 
 <p>
-Ignite is a lightweight task manager designed to stay out of your way.
-It’s built for people who want a clean UI, quick task creation, and reliable reminders
-without logging in or syncing to the cloud.
+Ignite is a lightweight, offline-first app built to help you execute your day without noise.
+It combines practical task management with emotional self-check and daily journaling in one calm interface.
 </p>
 
 <p>
-Everything stays on your device. No tracking. No distractions.
+Everything is stored locally on your device. No sync, no tracking, no account required.
 </p>
 
 <hr/>
 
-<h2>Key Features</h2>
+<h2>What’s New In This Version</h2>
+
+<ul>
+  <li>Complete Profile page redesign with a calmer card-based layout</li>
+  <li>Daily Mood Board with 5 independent sliders (Calm, Happy, Sad, Anxious, Anger)</li>
+  <li>Dominant-mood insight text that updates based on slider values</li>
+  <li>Daily Journal flow with <b>one journal per day</b></li>
+  <li>"Create a new journal" / "Edit the journal" smart action based on today’s entry</li>
+  <li>Journal editor page with date header and saved daily emotion mix indicator</li>
+  <li>Recent Journals section focused on previous days (yesterday and earlier)</li>
+  <li>Theme-aware background and card surfaces across the new profile/journal experience</li>
+</ul>
+
+<hr/>
+
+<h2>Core Features</h2>
 
 <ul>
   <li>Create tasks with optional date and time</li>
   <li>Priority labels: Normal / Urgent / Important</li>
   <li>Smart grouping: Today / Tomorrow / Upcoming / Someday</li>
-  <li>Mark tasks as completed (completed tasks move down automatically)</li>
-  <li>Swipe-to-delete with confirmation (safe deletion)</li>
+  <li>Today timeline sorting by schedule flow</li>
+  <li>Swipe actions for done/undone/delete with safety confirmation</li>
   <li>Scheduled local notifications for timed tasks</li>
-  <li>Personal greeting with editable username</li>
-  <li>Font scaling slider (text size control)</li>
-  <li>Fully offline (no internet required)</li>
+  <li>User name personalization and text scaling controls</li>
+  <li>Theme system with system/light/dark variants</li>
+  <li>Fully offline local persistence using Hive</li>
 </ul>
 
 <hr/>
 
-<h2>Notifications</h2>
+<h2>Mood + Journal Model</h2>
 
 <p>
-Ignite supports scheduled local notifications for tasks with date + time.
-Reminders work even when the app is closed.
+Ignite now stores daily reflection state per date:
 </p>
 
-<p>
-Completed tasks and tasks without a time are ignored by the notification system.
-</p>
-
-<hr/>
-
-<h2>Why Ignite?</h2>
+<ul>
+  <li>5 mood percentages (0–100%) for each day</li>
+  <li>Journal text for that day</li>
+  <li>Single-entry-per-day journal rule</li>
+</ul>
 
 <p>
-A lot of productivity apps feel like dashboards. Too many buttons, too many menus,
-too many systems to learn.
-</p>
-
-<p>
-Ignite is built to feel simple and calm — like a daily companion that helps you stay on track.
+This gives your profile page historical emotional context alongside journal history.
 </p>
 
 <hr/>
@@ -101,26 +106,35 @@ Ignite is built to feel simple and calm — like a daily companion that helps yo
 <h2>Design Direction</h2>
 
 <p>
-Ignite follows a clean dark theme with high contrast UI and smooth card-based sections.
-Priority labels are color-coded for quick recognition.
+The current design direction is calm, soft, and anime-inspired:
 </p>
 
 <ul>
-  <li><b>Primary:</b> <code>#1C1C1C</code></li>
-  <li><b>Background:</b> <code>#EBEBEB</code></li>
-  <li><b>Accent Red:</b> <code>#FF1919</code></li>
-  <li><b>Normal:</b> Blue</li>
-  <li><b>Urgent:</b> Yellow</li>
-  <li><b>Important:</b> Red</li>
+  <li>Glass-like layered cards over a themed mist background</li>
+  <li>Rounded, low-stress visual rhythm for daily use</li>
+  <li>Emotion colors are intentionally fixed for recognizability across themes</li>
+  <li>Theme-aware surfaces/text while preserving clarity and contrast</li>
 </ul>
+
+<hr/>
+
+<h2>Notifications</h2>
+
+<p>
+Ignite supports scheduled local reminders for tasks with date + time.
+Reminders can work even when the app is closed.
+</p>
+
+<p>
+Completed tasks and tasks without time are excluded from timed reminder scheduling.
+</p>
 
 <hr/>
 
 <h2>Download</h2>
 
 <p>
-Ignite is not published on the Play Store yet.
-For now, all APK builds are uploaded through <b>GitHub Releases</b>.
+Ignite is currently distributed via <b>GitHub Releases</b>.
 </p>
 
 <br/>
@@ -136,9 +150,9 @@ For now, all APK builds are uploaded through <b>GitHub Releases</b>.
 <br/>
 
 <ul>
-  <li>Download the APK from the Releases page</li>
-  <li>Install it on your Android device</li>
-  <li>If Android blocks installation, enable <b>"Install unknown apps"</b> for your browser/file manager</li>
+  <li>Download the APK from Releases</li>
+  <li>Install it on Android</li>
+  <li>If blocked, enable <b>Install unknown apps</b> for your browser/file manager</li>
 </ul>
 
 <hr/>
@@ -151,6 +165,7 @@ For now, all APK builds are uploaded through <b>GitHub Releases</b>.
   <li><b>Provider</b> (state management)</li>
   <li><b>flutter_local_notifications</b> (scheduled reminders)</li>
   <li><b>timezone</b> (accurate scheduling)</li>
+  <li><b>url_launcher</b> (external links)</li>
 </ul>
 
 <hr/>
@@ -158,30 +173,25 @@ For now, all APK builds are uploaded through <b>GitHub Releases</b>.
 <h2>Roadmap</h2>
 
 <details>
-  <summary><b>Version 1.x (Current Stage)</b></summary>
+  <summary><b>Current Focus (v2 cycle)</b></summary>
   <br/>
   <ul>
-    <li>More UI polish</li>
-    <li>Improved animations</li>
-    <li>Better task editing flow</li>
-    <li>More settings options</li>
-    <li>Bug fixes and performance improvements</li>
+    <li>Journal page refinements and richer emotional insights</li>
+    <li>Profile analytics polish and historical trends</li>
+    <li>More UX smoothness and visual micro-interactions</li>
+    <li>Reliability and performance improvements</li>
   </ul>
 </details>
 
 <br/>
 
 <details>
-  <summary><b>Version 2.0</b></summary>
+  <summary><b>Future Direction</b></summary>
   <br/>
-  <p>
-    Version 2.0 will expand Ignite into a complete daily routine partner.
-  </p>
   <ul>
-    <li>Home</li>
-    <li>Tasks</li>
-    <li>Focus</li>
-    <li>Profile</li>
+    <li>Zen tab expansion</li>
+    <li>Broader daily routine support</li>
+    <li>Advanced reflection tools (still local-first)</li>
   </ul>
 </details>
 
@@ -190,26 +200,22 @@ For now, all APK builds are uploaded through <b>GitHub Releases</b>.
 <h2>Privacy</h2>
 
 <p>
-Ignite does not collect user data.
-All tasks and settings are stored locally on your device using Hive.
+Ignite does not collect personal data.
+Tasks, mood values, journals, and settings are stored locally on your device.
 </p>
 
 <p>
-No account system. No analytics. No cloud sync.
+No account. No analytics SDK. No cloud dependency.
 </p>
 
 <hr/>
 
 <h2>Support</h2>
 
-<p>
-If you use Ignite and find it helpful:
-</p>
-
 <ul>
   <li>Star the repo</li>
-  <li>Report bugs in Issues</li>
-  <li>Suggest improvements</li>
+  <li>Report bugs via Issues</li>
+  <li>Share feature requests and UX feedback</li>
 </ul>
 
 <p>
@@ -222,11 +228,11 @@ Built by <a href="https://github.com/Abhinav08bhatt" target="_blank"><b>Avi</b><
 
 <p>
 <b>Proprietary License (All Rights Reserved).</b><br/>
-This project is not open-source. APK builds are provided for personal use only.
+This project is not open-source. APK builds are shared for personal use.
 </p>
 
 <hr/>
 
 <div align="center">
-  <h3>Ignite your day. Finish what matters.</h3>
+  <h3>Ignite your day. Reflect with intent. Finish what matters.</h3>
 </div>
