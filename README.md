@@ -18,7 +18,7 @@
   <br/>
 
   <p>
-    <b>Status:</b> Active Development (v2 profile + journal update)
+    <b>Status:</b> Active Development (v2.1.0)
     <br/>
     <b>Download:</b>
     <a href="https://github.com/Abhinav08bhatt/Ignite/releases/latest" target="_blank"
@@ -32,12 +32,10 @@
 
 <br/>
 
-<!-- <div align="center">
-  <img src="preview/version_2/ignite_v2_preview_01.jpeg" width="220" />
-  <img src="preview/version_2/ignite_v2_preview_02.jpeg" width="220" />
-  <img src="preview/version_2/ignite_v2_preview_03.jpeg" width="220" />
-  <img src="preview/version_2/ignite_v2_preview_04.jpeg" width="220" />
-</div> -->
+<div align="center">
+  <img src="preview/version_2.1.0/slide1.png" width="420" />
+  <img src="preview/version_2.1.0/slide2.png" width="420" />
+</div>
 
 <hr/>
 
@@ -102,19 +100,6 @@ This gives your profile page historical emotional context alongside journal hist
 </p>
 
 <hr/>
-
-<h2>Design Direction</h2>
-
-<p>
-The current design direction is calm, soft, and anime-inspired:
-</p>
-
-<ul>
-  <li>Glass-like layered cards over a themed mist background</li>
-  <li>Rounded, low-stress visual rhythm for daily use</li>
-  <li>Emotion colors are intentionally fixed for recognizability across themes</li>
-  <li>Theme-aware surfaces/text while preserving clarity and contrast</li>
-</ul>
 
 <hr/>
 
