@@ -33,8 +33,8 @@
 <br/>
 
 <div align="center">
-  <img src="preview/version_2.1.0/slide1.png" width="420" />
-  <img src="preview/version_2.1.0/slide2.png" width="420" />
+  <img src="preview/version_2.1.0/slide1.png" width="240" />
+  <img src="preview/version_2.1.0/slide2.png" width="240" />
 </div>
 
 <hr/>
